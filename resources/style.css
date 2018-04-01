@@ -1,7 +1,7 @@
 /* BODY */
 
 body {
-  font-family: Verdana;
+  font-family: Helvetica;
   font-size: 22px;
   background-color: black;
   color: seashell;
@@ -75,10 +75,8 @@ header {
 
 .text {
   background-color: black;
-  text-align: center;
   width: 1200px;
-  color: seashell;
-  padding: 0 0;
+  text-align: top;
 }
 
 /* TEA SECTION */
@@ -89,14 +87,14 @@ header {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 60px;
-  color: seashell;
 }
 
 .teaimages {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -156,7 +154,6 @@ header {
   background-size: contain;
 }
 
-
 /* LOCATION SECTION */
 
 #location {
@@ -166,20 +163,19 @@ header {
   margin-top: 70px;
   height: 500px;
   width: 1200px;
-  color: seashell;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  background-size: auto;
+  background-size: cover;
 }
-
-.streets {
-  display: inline-flex;
-  justify-content: center;
-  text-align: center;
-}
+/* I can't seem to put the image in the right place. Are the dimensions right? */
 
 .local {
   display: flex;
   justify-content: center;
+}
+.streets {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .localsquare {
@@ -191,15 +187,11 @@ header {
   height: 300px;
   background-color: black;
   opacity: 1;
-  text-align: center;
-  color: seashell;
 }
-
 
 /* FOOTER SECTION */
 
 .contact1 {
-  color: seashell;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -207,8 +199,6 @@ header {
   align-items: center;
 }
 
-
 .ftitle {
-  color: seashell;
   text-align: left;
 }
